@@ -21,9 +21,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: pnpm
-      - run: pnpm install
-      - run: pnpm build
+      - run: npm install
+      - run: npm build
         env:
           NITRO_PRESET: deno_deploy
       - name: Deploy to Deno Deploy
