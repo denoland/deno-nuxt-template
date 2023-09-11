@@ -6,7 +6,7 @@ starting point for using Nuxt on [Deno Deploy](https://deno.com/deploy).
 
 ## Local development
 
-Begin by installing the dependencies for
+Begin by installing the dependencies for the project:
 
 ```bash
 npm install
